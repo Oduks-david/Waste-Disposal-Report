@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<html lang="en" love-deals="879BC0364EB9EBEE3DBE71B15E175613">
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Waste Disposal Reporter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="report.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
+</head>
+<body>
+  <header>
+    <h5>Waste Disposal Reporter</h5>
+    <button class="nav-toggle" id="navToggle" style="display: block;"><i class="fas fa-bars"></i></button>
+       <nav id="navbar" style="display: none;">
+                <a href="#">Home</a>
+                <a href="#eco-section11">About Us</a>
+                <a href="#">Services</a>
+                <a href="#team-section11">Team</a>
+                <a href="#">Contact</a>
+                <button class="btn-primary" id="reportButton">Make a Report</button>
+
+                    <!-- The Popup Modal -->
+              <div id="reportModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">×</span>
+                    <h2>Waste Disposal Report</h2>
+                    <form id="wasteReportForm">
+                        <div class="form-group">
+                          <label for="text">Location&gt;</label>
+                          <select id="location" name="location" required="">
+                              <option value="">Waste Location</option>
+                              <option value="household">Phase 1</option>
+                              <option value="industrial">Phase 2</option>
+                              <option value="hazardous">Phase 3</option>
+                              <!-- <option value="construction">Construction Debris</option>
+                              <option value="electronic">Electronic Waste</option>
+                              <option value="other">Other</option> -->
+                          </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="wasteType">Type of Waste:</label>
+                            <select id="wasteType" name="wasteType" required="">
+                                <option value="">Select waste type</option>
+                                <option value="household">Household Waste</option>
+                                <option value="industrial">Industrial Waste</option>
+                                <option value="hazardous">Hazardous Waste</option>
+                                <option value="construction">Construction Debris</option>
+                                <option value="electronic">Electronic Waste</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="quantity">Estimated Quantity:</label>
+                            <select id="quantity" name="quantity">
+                                <option value="small">Small (1-5 bags)</option>
+                                <option value="medium">Medium (5-20 bags)</option>
+                                <option value="large">Large (20+ bags)</option>
+                                <option value="bulk">Bulk/Industrial quantity</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="description">Additional Description:</label>
+                            <textarea id="description" name="description" rows="3" placeholder="Provide more details about the waste"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="photo">Upload Photo (optional):</label>
+                            <input type="file" id="photo" name="photo" accept="image/*">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="reporter">Your Contact (optional):</label>
+                            <input type="text" id="reporter" name="reporter" placeholder="Phone number">
+                        </div>
+                        
+                        <button type="submit" class="btn-primary">Submit Report</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+  <section class="hero">
+    <h1>Be Safe Controls Environment</h1>
+    <p>Professionally optimize interdependent intellectual interoperable correct best practices. Progressively fabricate done.</p>
+    <div class="hero-buttons">
+      <button class="btn-primary">Make A Report</button>
+      <button class="btn-primary secondary">Read More</button>
+    </div>
+  </section>
+
+  <div class="tags-bar">
+    <div class="tag">Ocean-Recycling</div>
+    <div class="tag">Environmental</div>
+    <div class="tag">Renewable-Energy</div>
+    <div class="tag">Ocean-Recycling</div>
+    <div class="tag">Environmental</div>
+  </div>
+  <section class="eco-section" id="eco-section11">
+    <div class="eco-image-wrapper">
+      <img src="pictures/fuoyebin.jpg" alt="Floating island" class="eco-image">
+      <div class="award-label">
+        <i class="fas fa-award"></i> AWARD WINNING
+      </div>
+    </div>
+
+    <div class="eco-content">
+      <p class="section-subtitle"><i class="fas fa-leaf"></i> ABOUT Waste Disposal Reporter</p>
+      <h2>Environmental Sustainable<br>Forever Green Future</h2>
+      <ul class="eco-benefits">
+        <li>
+          <i class="fas fa-check-circle"></i>
+          <strong>Economic Benefits</strong><br>
+          <span> 
+            <i class="fa-solid fa-square-check"></i>  Encouraging recycling and proper waste segregation on campus.
+            <br>
+            <i class="fa-solid fa-square-check"></i> Preventing litter and illegal dumping to protect FUOYE’s ecosystem.
+          
+           </span>
+        </li>
+        <li>
+          <i class="fas fa-check-circle"></i>
+          <strong>Safe Environment</strong><br>
+          <span> 
+            <i class="fa-solid fa-square-check"></i> Minimizing disease risks from improper waste disposal.
+            <br>
+            <i class="fa-solid fa-square-check"></i> Preventing rodents and insects caused by accumulated trash.
+        
+          </span>
+        </li>
+      </ul>
+      <button class="eco-button">Make a Report <i class="fas fa-arrow-right"></i></button>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Environmental Sustainable For Future Campus</h2>
+    <p>✔ Economic Benefits &nbsp;&nbsp; ✔ Safe Environment</p>
+    <div class="card-grid">
+      <div class="card">
+        <h3>Dirty Recycling</h3>
+        <p>Environmental innovation to stop network environments whiteboard transparencies natural to environment.</p>
+      </div>
+      <div class="card">
+        <h3>Safe Environment</h3>
+        <p>Environmental innovation to stop network environments whiteboard transparencies natural to environment.</p>
+      </div>
+      <div class="card">
+        <h3>Cleaning</h3>
+        <p>Environmental innovation to stop network environments whiteboard transparencies natural to environment.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-section">
+    <div class="stats-text">
+      <h2 class="section-title">Getting A Greener Future Safe Environment</h2>
+      <div class="progress-container">
+        <div class="progress-label">Recycling - 90%</div>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 90%"></div>
+        </div>
+      </div>
+      <div class="progress-container">
+        <div class="progress-label">Ocean Cleaning - 85%</div>
+        <div class="progress-bar">
+          <div class="progress-fill" style="width: 85%"></div>
+        </div>
+      </div>
+    </div>
+    <div class="stats-image">
+      <img src="pictures/fuoyebin.jpg" alt="Hands holding a plant">
+    </div>
+  </section>
+
+  <section class="team-section" id="team-section11">
+    <h2 class="section-title">Meet Our Team</h2>
+    <div class="team-container">
+        <!-- Team Member 1 -->
+        <div class="team-card">
+            <img src="pictures/samuel.jpg" alt="Team Member" class="card-image">
+            <div class="card-content">
+                <h3 class="member-name">Adeniji Samuel</h3>
+                <!-- <span class="member-matric">CSC/2022/1141</span> -->
+                <span class="member-role">Team Lead</span>
+            </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="team-card">
+            <img src="pictures/Tomiwa.jpg" alt="Team Member" class="card-image">
+            <div class="card-content">
+                <h3 class="member-name">Kolawole Oluwatomiwa</h3>
+                <!-- <span class="member-matric">FSC/2019/002</span> -->
+                <span class="member-role">Developer</span>
+            </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="team-card">
+            <img src="pictures/john.jpg" alt="Team Member" class="card-image">
+            <div class="card-content">
+                <h3 class="member-name">James john odeh</h3>
+                <!-- <span class="member-matric">FSC/2019/003</span> -->
+                <span class="member-role">Designer</span>
+            </div>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="team-card">
+            <img src="pictures/isaiah.jpg" alt="Team Member" class="card-image">
+            <div class="card-content">
+                <h3 class="member-name">Shobowale Ezekiel</h3>
+                <!-- <span class="member-matric">FSC/2019/004</span> -->
+                <span class="member-role">Content Writer</span>
+            </div>
+        </div>
+
+        <!-- Team Member 5 -->
+        <div class="team-card">
+            <img src="pictures/edujobi.jpg" alt="Team Member" class="card-image">
+            <div class="card-content">
+                <h3 class="member-name">Olujobi Olamidotun</h3>
+                <!-- <span class="member-matric">FSC/2019/005</span> -->
+                <span class="member-role">Researcher</span>
+            </div>
+        </div>
+
+        <!-- Supervisor -->
+        <div class="team-card">
+          <img src="pictures/p.jpg" alt="Team Member" class="card-image">
+          <div class="card-content">
+              <h3 class="member-name">Mrs Catherine</h3>
+              <!-- <span class="member-matric">FSC/2019/005</span> -->
+              <span class="member-role">Supervisor</span>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>About</h3>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#team-section11">Team</a></li>
+            </ul>
+        </div>
+        
+        <!-- <div class="footer-column">
+            <h3>Benefits</h3>
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-column">
+            <h3>Career</h3>
+            <ul>
+                <li><a href="#">Openings</a></li>
+                <li><a href="#">Culture</a></li>
+                <li><a href="#">Benefits</a></li>
+            </ul>
+        </div> -->
+        
+        <div class="footer-column">
+            <h3>Contact</h3>
+            <ul>
+                <li><a href="mailto:mudassar@gmail.com">Email: samueladenijir@gmail.com</a></li>
+                <li><a href="#">Contact Us:: 07040408144</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>© <script>document.write(new Date().getFullYear())</script>2025 Waste Disposal Reporter. All rights reserved.</p>
+        <p>Visit us at: <a href="https://websites.com" target="_blank">repoter.com</a></p>
+    </div>
+</footer>
+
+
+<!-- Firebase Initialization -->
+<!-- <script type="module" src="firebase-init.js"></script> -->
+
+<!-- Firebase SDK -->
+<!-- Firebase SDK -->
+<script type="module">
+
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+  import { 
+    getFirestore, 
+    collection, 
+    addDoc, 
+    serverTimestamp 
+  } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyBLlJ7a1x7rSBVOARv6EjJCHBw_F15ulv0",
+    authDomain: "waste-disposal-report.firebaseapp.com",
+    projectId: "waste-disposal-report",
+    storageBucket: "waste-disposal-report.appspot.com",
+    messagingSenderId: "200809643301",
+    appId: "1:200809643301:web:f031e38c99113037222ecc"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+
+  // Modal control function
+  function setupModal() {
+    const modal = document.getElementById("reportModal");
+    const btn = document.getElementById("reportButton");
+    const closeBtn = document.querySelector(".close");
+    const form = document.getElementById("wasteReportForm");
+    const statusMessage = document.getElementById("statusMessage");
+
+    if (!modal || !btn || !form) {
+      console.error("Missing elements! Check your IDs");
+      return;
+    }
+
+    // Open modal
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      modal.style.display = "block";
+      if (statusMessage) statusMessage.textContent = "";
+    });
+
+    // Close modal
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = "none";
+    });
+
+    // Close when clicking outside
+    window.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+
+    // Form submission
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      
+      const submitBtn = form.querySelector('button[type="submit"]');
+      submitBtn.disabled = true;
+      submitBtn.textContent = "Submitting...";
+      
+      // Basic validation
+      if (!form.location.value || !form.wasteType.value) {
+        showStatus("Please fill in required fields (location and waste type)", "error");
+        submitBtn.disabled = false;
+        submitBtn.textContent = "Submit Report";
+        return;
+      }
+
+      try {
+        const reportData = {
+          location: form.location.value,
+          wasteType: form.wasteType.value,
+          quantity: form.quantity.value || "unspecified",
+          description: form.description.value || "No description provided",
+          reporter: form.reporter.value || "Anonymous",
+          timestamp: serverTimestamp(),
+          status: "new"
+        };
+
+        // Add a new document to the "reports" collection
+        const docRef = await addDoc(collection(db, "reports"), reportData);
+        console.log("Document written with ID: ", docRef.id);
+        
+        showStatus("Report submitted successfully!", "success");
+        setTimeout(() => {
+          modal.style.display = "none";
+          form.reset();
+        }, 1500);
+      } catch (error) {
+        console.error("Error adding document: ", error);
+        let message = "Error submitting report";
+        if (error.code === 'permission-denied') {
+          message = "You don't have permission to submit reports";
+        }
+        showStatus(message, "error");
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = "Submit Report";
+      }
+    });
+
+    function showStatus(message, type) {
+      if (!statusMessage) {
+        alert(message);
+        return;
+      }
+      statusMessage.textContent = message;
+      statusMessage.className = `status-message ${type}`;
+      setTimeout(() => {
+        statusMessage.textContent = "";
+        statusMessage.className = "status-message";
+      }, 3000);
+    }
+  }
+
+  // Initialize when DOM is loaded
+  document.addEventListener('DOMContentLoaded', setupModal);
+</script>
+
+<script src="harmburger.js"></script>
+ <!-- <script src="report.js"></script> -->
+
+
+<!-- Your main script -->
+<!-- <script type="module" src="script.js"></script> -->
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+    
+</body>
+</html>
